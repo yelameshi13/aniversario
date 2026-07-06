@@ -4,8 +4,8 @@ const contenidoEstrellas = [
     { id: 'img2', tipo: 'foto', img: 'fotos/pareja1.jpeg', texto: 'Me encanta cómo somos nosotros cuando estamos juntos. Completamente únicos.' },
     { id: 'img3', tipo: 'foto', img: 'fotos/pareja2.jpeg', texto: 'Tu sonrisa y tu mirada son mi parte favorita de todos los días.' },
     { id: 'img4', tipo: 'foto', img: 'fotos/pareja3.jpeg', texto: 'Gracias por ser mi paz, mi alegría constante y mi apoyo incondicional.' },
-    { id: 'jack', tipo: 'foto', img: 'fotos/Jack.jpeg', texto: 'Amor, quiero decirte lo orgullosa que me siento de ti. No solo eres el hombre de mi vida, sino que serás el padre más increíble del mundo. No puedo esperar a que nazca nuestro bebé en septiembre y verte con él en brazos. Te amo, futuro gran papá.' },
-    { id: 'angela', tipo: 'foto', img: 'fotos/Angela.jpeg', texto: 'Hoy me detengo a pensar y me siento la mujer más afortunada del universo por tenerte. Eres mi refugio, mi mejor decisión y la razón de mis suspiros. Mi vida no tendría sentido sin tu amor, eres mi todo poético y real. Te amo infinitamente.' }
+    { id: 'jack', tipo: 'foto', img: 'fotos/jack.jpeg', texto: 'Amor, quiero decirte lo orgullosa que me siento de ti. No solo eres el hombre de mi vida, sino que serás el padre más increíble del mundo. No puedo esperar a que nazca nuestro bebé en septiembre y verte con él en brazos. Te amo, futuro gran papá.' },
+    { id: 'angela', tipo: 'foto', img: 'fotos/angela.jpeg', texto: 'Hoy me detengo a pensar y me siento la mujer más afortunada del universo por tenerte. Eres mi refugio, mi mejor decisión y la razón de mis suspiros. Mi vida no tendría sentido sin tu amor, eres mi todo poético y real. Te amo infinitamente.' }
 ];
 
 const frasesAmor = [
