@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Galaxia - Un Año Juntos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="musica" src="musica/cancion.mp3" loop></audio>
+
+    <!-- PANTALLA DE LOGIN -->
+    <div id="pantalla-login" class="contenedor">
+        <div class="tarjeta-login">
+            <h2>Nuestra Galaxia</h2>
+            <p>Introduce las claves secretas</p>
+            <input type="text" id="usuario" placeholder="Palabra favorita">
+            <input type="password" id="contrasena" placeholder="Dia especial">
+            <button onclick="validarLogin()">Entrar</button>
+            <p id="error" class="error"></p>
+        </div>
+    </div>
+
+    <!-- PANTALLA PRINCIPAL (GALAXIA) -->
+    <div id="pantalla-galaxia" class="contenedor oculto">
+        <div id="final-mensaje" class="final-overlay oculto">
+            <div class="contenido-final">
+                <h1 class="texto-aniversario">¡FELIZ ANIVERSARIO MI AMOR!</h1>
+                <p>Gracias por este primer año... y por todos los que vienen.</p>
+                <div class="corazon-latido">♡</div>
+            </div>
+        </div>
+
+        <h1> Galaxia del Amor </h1>
+        <p class="instrucciones">Explora el universo... toca las estrellas brillantes amorcito.</p>
+        
+        <div id="espacio-galaxia" class="espacio-galaxia"></div>
+    </div>
+
+    <!-- VENTANA EMERGENTE (MODAL ADAPTADO) -->
+    <div id="modal-contenido" class="modal oculto" onclick="cerrarModal()">
+        <div class="contenido-modal" onclick="event.stopPropagation()">
+            <div id="modal-cuerpo"></div>
+            <button class="btn-cerrar" onclick="cerrarModal()">Volver a la galaxia</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
